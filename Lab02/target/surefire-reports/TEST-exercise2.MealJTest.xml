@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6256168749843434135.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6766225810127926791.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -55,10 +55,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="exercise2.MealJTest" name="MealOne" time="0.003"/>
+  <testcase classname="exercise2.MealJTest" name="MealOne" time="0.002"/>
   <testcase classname="exercise2.MealJTest" name="MealTwo" time="0"/>
   <testcase classname="exercise2.MealJTest" name="MealTwoValues" time="0.001"/>
   <testcase classname="exercise2.MealJTest" name="MealOneValues" time="0"/>
   <testcase classname="exercise2.MealJTest" name="MealThreeValues" time="0"/>
-  <testcase classname="exercise2.MealJTest" name="MealThree" time="0"/>
+  <testcase classname="exercise2.MealJTest" name="MealThree" time="0.001"/>
 </testsuite>
