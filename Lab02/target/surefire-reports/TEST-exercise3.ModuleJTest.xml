@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13366324824637299175.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf11153216670117162219.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -55,11 +55,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="exercise3.ModuleJTest" name="testHighAverage" time="0"/>
+  <testcase classname="exercise3.ModuleJTest" name="testHighAverage" time="0.001"/>
   <testcase classname="exercise3.ModuleJTest" name="testLowAverage" time="0"/>
   <testcase classname="exercise3.ModuleJTest" name="testAverage" time="0"/>
   <testcase classname="exercise3.ModuleJTest" name="testConstantValue" time="0"/>
-  <testcase classname="exercise3.ModuleJTest" name="displayHighAverage" time="0.001"/>
+  <testcase classname="exercise3.ModuleJTest" name="displayHighAverage" time="0"/>
   <testcase classname="exercise3.ModuleJTest" name="displayAverage" time="0"/>
   <testcase classname="exercise3.ModuleJTest" name="testValues" time="0"/>
   <testcase classname="exercise3.ModuleJTest" name="displayLowAverage" time="0"/>
