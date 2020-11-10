@@ -23,5 +23,6 @@ public class Example2 {
 		for (Weekdays day : daysArray) {
 			System.out.println(day + " is a " + day.getDayType()+" "+day.getNumber());
 		}
+		
 	}
 }

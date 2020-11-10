@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="lab6_exercise3.MedalTableJTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="lab6_exercise3.MedalTableJTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf16310647737932612389.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15568694020306636631.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -61,6 +61,6 @@
   <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testTableConstruction" time="0"/>
   <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testGetMedalCount" time="0"/>
   <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testGetMedals" time="0"/>
-  <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testCountriesEU" time="0"/>
+  <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testCountriesEU" time="0.001"/>
   <testcase classname="lab6_exercise3.MedalTableJTest" name="lab6_testCountriesIndex" time="0"/>
 </testsuite>

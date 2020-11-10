@@ -1,6 +1,6 @@
 package lab6_exercise2;
 
-import static org.junit.Assert.assertEquals;
+
 
 public class Check {
 
