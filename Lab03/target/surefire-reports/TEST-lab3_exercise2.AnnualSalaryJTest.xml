@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="lab3_exercise2.AnnualSalaryJTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="lab3_exercise2.AnnualSalaryJTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13847818588609891419.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7814076025533288368.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -57,7 +57,7 @@
   </properties>
   <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxBasicNew" time="0"/>
   <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxNoneNew" time="0"/>
-  <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxNone" time="0.001"/>
+  <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxNone" time="0"/>
   <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testAccessorsMutators" time="0"/>
   <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxHigherNew" time="0"/>
   <testcase classname="lab3_exercise2.AnnualSalaryJTest" name="lab3_testCalculateTaxBasic" time="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="lab3_exercise3.EmployeeJTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="lab3_exercise3.EmployeeJTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13847818588609891419.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7814076025533288368.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -57,11 +57,11 @@
   </properties>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testAccessorsMutatorsNew" time="0"/>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testAccessorsMutators" time="0"/>
-  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonus20And40" time="0"/>
+  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonus20And40" time="0.001"/>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonusNew" time="0"/>
-  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecord" time="0.001"/>
+  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecord" time="0"/>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonusOnly20" time="0"/>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonusNoSalary" time="0"/>
-  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNew" time="0.001"/>
+  <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNew" time="0"/>
   <testcase classname="lab3_exercise3.EmployeeJTest" name="lab3_testDisplayRecordNoBonus" time="0"/>
 </testsuite>
