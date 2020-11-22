@@ -17,8 +17,8 @@ public class StudentTracker {
 		
 	}
 	
-	
-	public void addStudent(Student student,List<Module> modulelist) {
+
+	public void addStudent(Student student,List<Module> modulelist) {   
 		for(int i=0;i<modulelist.size();i++) {
 			
 			student.addModuleList(modulelist.get(i));
@@ -40,12 +40,12 @@ public class StudentTracker {
 
 	
 	public String printStudents() {
-		String display="";
+		StringBuffer print = new StringBuffer();
 		
 		for(Student i: studentList) {
-			display+=i.getName()+"("+i.getUrn()+")\n";
+			print.append(i.getName()+"("+i.getUrn()+")\n");
 		}
-		return display ;
+		return print.toString() ;
 	}
 	
 	public String printModules(int urn) {
