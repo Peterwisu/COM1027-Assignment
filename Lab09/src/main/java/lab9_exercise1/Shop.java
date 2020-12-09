@@ -3,23 +3,37 @@ package lab9_exercise1;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * This class display a detail of a product in a shop.
+ * 
+ * @author Wish Suharitdamrong
+ *
+ */
 public class Shop {
 	
-	
+	//list of an items
 	private List<IItem> items =null;
-	
+	/**
+	 * Default constructor to define Arraylist
+	 */
 	public Shop() {
 		super();
+		//define ArrayList
 		this.items = new ArrayList<IItem>();
 	}
-
-		public void addItem(IItem item) {
+	/**Method to add item to a item Arraylist.
+	 * 	
+	 * @param item
+	 */
+	public void addItem(IItem item) {
 			
 			this.items.add(item);	
 		}
-		
-		public String displayCatalogue() {
+	/**Display a shop catalogue
+	 * 	
+	 * @return String value of display of catalogue.
+	 */
+	public String displayCatalogue() {
 			StringBuffer display = new StringBuffer();
 			DecimalFormat format =new DecimalFormat(".00");
 			display.append("Shop Catalogue\n\n"+"Item		Price	Sale Price\n"); 
