@@ -1,12 +1,9 @@
 /**
+
  * 
  */
 package lab6_exercise3;
 
-/**
- * @author peterwish
- *
- */
 public class Check {
 
 	/**
@@ -17,7 +14,7 @@ public class Check {
 
 			MedalTable table =new MedalTable();
 			
-			System.out.println(table.toString());
+			System.out.println(table.toString().toString());
 			
 	}
 
