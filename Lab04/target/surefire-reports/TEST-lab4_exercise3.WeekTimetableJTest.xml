@@ -22,14 +22,14 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf14596734672919273299.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17086215579538622185.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="59.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.15.6"/>
+    <property name="os.version" value="10.16"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/peterwish"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
@@ -56,6 +56,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="lab4_exercise3.WeekTimetableJTest" name="lab4_testSetSessionPicture" time="0"/>
-  <testcase classname="lab4_exercise3.WeekTimetableJTest" name="lab4_testTimetable" time="0.001"/>
-  <testcase classname="lab4_exercise3.WeekTimetableJTest" name="lab4_testSecondTimetable" time="0"/>
+  <testcase classname="lab4_exercise3.WeekTimetableJTest" name="lab4_testTimetable" time="0"/>
+  <testcase classname="lab4_exercise3.WeekTimetableJTest" name="lab4_testSecondTimetable" time="0.001"/>
 </testsuite>

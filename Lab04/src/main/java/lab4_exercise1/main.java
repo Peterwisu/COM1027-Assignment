@@ -4,7 +4,7 @@
 package lab4_exercise1;
 
 /**
- * @author peterwish
+ * @author Wish Suharitdamrong
  *
  */
 public class main {
