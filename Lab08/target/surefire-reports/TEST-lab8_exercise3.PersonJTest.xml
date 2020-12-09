@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="lab8_exercise3.PersonJTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="lab8_exercise3.PersonJTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8538635332177939260.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5887060998728193136.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -55,7 +55,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="lab8_exercise3.PersonJTest" name="lab8_testToString" time="0.001"/>
+  <testcase classname="lab8_exercise3.PersonJTest" name="lab8_testToString" time="0"/>
   <testcase classname="lab8_exercise3.PersonJTest" name="lab8_testInvalidAge2" time="0"/>
   <testcase classname="lab8_exercise3.PersonJTest" name="lab8_testInvalidSurname2" time="0"/>
   <testcase classname="lab8_exercise3.PersonJTest" name="lab8_testPerson" time="0"/>
