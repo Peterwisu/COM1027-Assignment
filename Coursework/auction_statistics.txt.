@@ -1,0 +1,2 @@
+Total Auction Sales: noOfSales Automatic Cars: percentageOfUsed% Manual Cars: percentageOfNew%
+Top Seller: this.topSeller.toString()

@@ -1,0 +1,17 @@
+SOLD CARS:
+2345 - Purchased by A***e at 15000.00 (purchased 0) 
+
+
+UNSOLD CARS:
+Ad: 1234 - Toyota Corolla (£15000.00)  [ONLY 10 LEFT]
+     Type: AUTOMATIC
+     Style: MICRO
+     Colour: Red
+     No. of Seats: 4
+     Condition: NEW
+Ad: 2345 - Mercedes-Benz A Class (£15000.00)  [ONLY 10 LEFT]
+     Type: MANUAL
+     Style: HATCHBACK
+     Colour: Blue
+     No. of Seats: 5
+     Condition: NEW
