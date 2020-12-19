@@ -15,7 +15,7 @@ import java.util.List;
 public class Advert {
 	
 	//Create Car object;
-	private Car car;
+	private Car car=null;
 	//Create list of offers
 	private List<Offer> offers;
 	
@@ -47,14 +47,7 @@ public class Advert {
 		return car;
 	}
 	
-	/**
-	 * 
-	 * @return Offer
-	 */
-	public List<Offer> getOffers() {
-		return offers;
-	}
-
+	
 	/**Method to get Highest offers price of a car.
 	 * 
 	 * @return highest offer of an advert
@@ -78,7 +71,7 @@ public class Advert {
 	}
 	
 	
-	
+	////This method is created for a setter of a Offer arraylist in this class for Testing in a JUnit Test
 	/**
 	 * 
 	 * @param offers 

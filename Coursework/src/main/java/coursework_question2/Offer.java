@@ -11,9 +11,9 @@ package coursework_question2;
 public class Offer {
 
 	//The value of an offer.
-	private double value;
+	private double value=0;
 	//The type of a user.
-	private User buyer;
+	private User buyer=null;
 	
 	
 	/**

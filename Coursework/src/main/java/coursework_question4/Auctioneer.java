@@ -28,7 +28,7 @@ public class Auctioneer extends Dealership {
 	
 	
 	//Name of a Auctioneer.
-	protected String name;
+	protected String name=null;
 	//HashMap of car available for sale.
 	protected Map<Advert,Seller> carsForSale;
 	//HashMap of a sold cars.
@@ -38,7 +38,7 @@ public class Auctioneer extends Dealership {
 	//HashMap of Seller and a number of sales
 	private Map<Seller,Integer> sales;
 	//Seller with the highest sell
-	private Seller	topSeller;
+	private Seller	topSeller=null;
 	
 	/**
 	 * 
@@ -295,6 +295,7 @@ public class Auctioneer extends Dealership {
 	 */
 	private void updateStatistics(Seller seller) {
 		
+		//Identify a Top Seller in Aunction
 		
 		//put a Seller and number of sell in HashMap<Seller,Integer> sale respectively
 		this.sales.put(seller, seller.getSales());
@@ -316,7 +317,7 @@ public class Auctioneer extends Dealership {
 		
 		
 		/*Use method saveInFile()
-		 * saveInFile(number of sale,number automatic gear car sales,number manual gear car sales)
+		 * saveInFile(number of sale,percentage number of automatic gear car sales,percentage number of manual gear car sales)
 		 * Use thid method to update Statistic to show a stat of a car sale from top seller
 		 */
 		this.saveInFile(total,this.topSeller.getAutosales()*100/total,this.topSeller.getManualsales()*100/total);

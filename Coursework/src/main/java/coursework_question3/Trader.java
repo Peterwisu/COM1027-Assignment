@@ -1,6 +1,7 @@
 package coursework_question3;
 
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,7 +20,7 @@ import java.util.Map.Entry;
 public class Trader extends Dealership {
 
 	//Name of a Trader
-	protected String name;
+	protected String name=null;
 	//HashMap of car available for sale.
 	protected Map<Advert,Seller> carsForSale;
 	//HashMap of a sold cars.
@@ -41,6 +42,7 @@ public class Trader extends Dealership {
 		this.carsForSale =new HashMap<Advert,Seller>();
 		this.soldCars    =new HashMap<Advert,Buyer>();
 		this.unsoldCars  =new HashMap<Advert,Seller>();
+		this.seller      =new ArrayList<Seller>();
 	}
 	
 	/**Display all sold car with details of a purchased

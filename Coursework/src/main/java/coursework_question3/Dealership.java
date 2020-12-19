@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public abstract class Dealership {
 	//Name of a Dealership
-	protected String name;
+	protected String name=null;
 	//HashMap of car available for sale.
 	protected Map<Advert,Seller> carsForSale;
 	//HashMap of a sold cars.

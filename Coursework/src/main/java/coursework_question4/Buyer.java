@@ -10,9 +10,9 @@ package coursework_question4;
  */
 public class Buyer extends User {
 	//Age of a buyer.
-		private int age;
+		private int age=0;
 		//Fullname of buyer.
-		private String fullname;
+		private String fullname=null;
 		//Regular expression for a validation of buyer name.
 		private static final String regEX ="([A-Z]{1}[a-z]*) ([A-Z]{1}[a-z]*)";
 		/**

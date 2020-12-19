@@ -10,7 +10,7 @@ package coursework_question3;
  */
 public class Seller extends User{
 	//Full name of a seller.
-	private String fullname;
+	private String fullname=null;
 	//Regular expression for a validation of seller name
 	private static final String regEX ="([A-Z]{1}[a-z]*) ([A-Z]{1}[a-z]*)";
 	/**

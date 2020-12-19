@@ -15,7 +15,7 @@ import java.util.Map;
 public class Trader {
 
 		//Name of a Trader.
-		protected String name;
+		protected String name=null;
 		//HashMap of car available for sale.
 		protected Map<Advert,User> carsForSale;
 		//HashMap of a sold cars.

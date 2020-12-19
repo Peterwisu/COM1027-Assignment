@@ -16,9 +16,7 @@ public class main {
 		
 		Advert ad1 = new Advert(car1);
 		Advert ad2 = new Advert(car2);
-		Buyer user1 = new Buyer("Alice Wonderland", 50);
 		Buyer user2 = new Buyer("Alice Wonderland", 50);
-		Buyer user3 = new Buyer("Peter Wish",19);
 		Seller seller2 = new Seller("Adam Hills");
 		Dealership dealer = new Dealership("optional");
 		

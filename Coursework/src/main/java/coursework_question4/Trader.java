@@ -27,7 +27,7 @@ import java.util.Map.Entry;
 public class Trader extends Dealership {
 
 	//Name of a Trader
-	protected String name;
+	protected String name=null;;
 	//HashMap of car available for sale.
 	protected Map<Advert,Seller> carsForSale;
 	//HashMap of a sold cars.
@@ -286,6 +286,7 @@ public class Trader extends Dealership {
 	private void updateStatistic(Seller seller) {
 		//counter for total sale
 		int total=0;
+		//Add Seller to a Arraylisy Seller
 		
 		//Check if seller is already exist in Array
 		if(this.seller.contains(seller)==false) {

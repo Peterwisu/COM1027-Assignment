@@ -201,7 +201,7 @@ public class Car {
 		return this.id+" - "+this.name;
 	}
 
-	/**
+	/**To update a number of car sold and instock
 	 * 
 	 * @param number of car sold.
 	 */

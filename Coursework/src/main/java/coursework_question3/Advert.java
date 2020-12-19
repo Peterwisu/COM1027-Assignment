@@ -15,7 +15,7 @@ import java.util.List;
 public class Advert {
 	
 	//Create Car object;
-	private Car car;
+	private Car car=null;
 	//Create list of offers
 	private List<Offer> offers;
 	
@@ -48,13 +48,6 @@ public class Advert {
 		return car;
 	}
 	
-	/**
-	 * 
-	 * @return
-	 */
-	public List<Offer> getOffers() {
-		return offers;
-	}
 
 	/**Method to get Highest offers price of a car.
 	 * 
@@ -80,13 +73,7 @@ public class Advert {
 	
 	
 	
-	/**
-	 * 
-	 * @param offers 
-	 */
-	public void setOffers(List<Offer> offers) {
-		this.offers = new ArrayList<Offer>(offers);
-	}
+	
 
 	/**Check a detail of a offer whether it is qulify to purchase a car or not.
 	 * 

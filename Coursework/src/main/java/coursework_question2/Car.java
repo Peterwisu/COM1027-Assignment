@@ -14,23 +14,23 @@ import java.text.DecimalFormat;
 public class Car {
 
 	//The identical number(ID) of a car.
-	private int id;
+	private int id=0;
 	//The name of a car.
-	private String name;
+	private String name=null;
 	//the color of a car.
-	private String colour;
+	private String colour=null;
 	//The reserve price of a car
-	private double reservePrice;
+	private double reservePrice=0;
 	//The type of gear box of a car.
-	private CarType gearbox;
+	private CarType gearbox=null;
 	//The type of body of a car.
-	private CarBody body;
+	private CarBody body=null;
 	//The number of seats available in a car.
-	private int numberOfSeats ;
+	private int numberOfSeats=0 ;
 	//The conditions of a car.
-	private Condition condition;
+	private Condition condition=null;
 	//The type of sale of a car
-	private SaleType saletype;
+	private SaleType saletype=null;
 	/**
 	 * Constructor 
 	 * 

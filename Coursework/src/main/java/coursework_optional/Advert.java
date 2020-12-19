@@ -53,13 +53,7 @@ public class Advert {
 		return car;
 	}
 	
-	/**
-	 * 
-	 * @return
-	 */
-	public List<Offer> getOffers() {
-		return offers;
-	}
+	
 
 	/**Method to get Highest offers price of a car.
 	 * 
@@ -123,16 +117,17 @@ public class Advert {
 			
 			
 			
-			
+		//Check if the price of a car more than or equl to car price and number of car in stock more than number of purcahse
 	     if(value>=this.car.getPrice()&&this.car.getInstock()>noofpurchase){
 	    	 
-	    	 
+	    	 //if true offer is true
 	    		 offer=true;
+	    		 //call function Carsold from Car class to a number of car sold and instock
 	    		 this.car.Carsold(noofpurchase);
 	    	
 	    	 
 	     } else{
-			
+			//not true  offer is false
 			offer =false;
 		} 
 	     

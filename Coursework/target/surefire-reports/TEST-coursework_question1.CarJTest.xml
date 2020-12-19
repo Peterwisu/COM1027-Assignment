@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7736592658210968912.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15160570161078630944.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -57,8 +57,8 @@
   </properties>
   <testcase classname="coursework_question1.CarJTest" name="coursework_testInvalidCarName" time="0"/>
   <testcase classname="coursework_question1.CarJTest" name="coursework_testInvalidCarPrice" time="0"/>
-  <testcase classname="coursework_question1.CarJTest" name="coursework_testToString" time="0"/>
-  <testcase classname="coursework_question1.CarJTest" name="coursework_testDisplayCarSpecification" time="0.001"/>
+  <testcase classname="coursework_question1.CarJTest" name="coursework_testToString" time="0.001"/>
+  <testcase classname="coursework_question1.CarJTest" name="coursework_testDisplayCarSpecification" time="0"/>
   <testcase classname="coursework_question1.CarJTest" name="coursework_testCarConstruction" time="0"/>
   <testcase classname="coursework_question1.CarJTest" name="coursework_testInvalidCarID" time="0"/>
   <testcase classname="coursework_question1.CarJTest" name="coursework_testSetCarProperties" time="0"/>

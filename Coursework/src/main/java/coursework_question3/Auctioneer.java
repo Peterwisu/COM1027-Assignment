@@ -18,7 +18,7 @@ import java.util.Map.Entry;
 public class Auctioneer extends Dealership {
 	
 	//Name of a Auctioneer.
-	protected String name;
+	protected String name=null;
 	//HashMap of car available for sale.
 	protected Map<Advert,Seller> carsForSale;
 	//HashMap of a sold cars.
@@ -28,7 +28,7 @@ public class Auctioneer extends Dealership {
 	//HashMap of Seller and a number of sales
 	private Map<Seller,Integer> sales;
 	//Seller with the highest sell
-	private Seller	topSeller;
+	private Seller topSeller=null;
 	
 	/**
 	 * 
@@ -44,7 +44,7 @@ public class Auctioneer extends Dealership {
 		this.carsForSale =new HashMap<Advert,Seller>();
 		this.soldCars    =new HashMap<Advert,Buyer>();
 		this.unsoldCars  =new HashMap<Advert,Seller>();
-		
+		this.sales		 =new HashMap<Seller,Integer>();
 	}
 	
 	
