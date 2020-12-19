@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15160570161078630944.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3162428594237500561.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -59,9 +59,9 @@
   <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplayStatistics" time="0"/>
   <testcase classname="coursework_question3.TraderJTest" name="coursework_testInvalidRegister" time="0"/>
   <testcase classname="coursework_question3.TraderJTest" name="coursework_testTrader" time="0"/>
-  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplaySoldCars" time="0.001"/>
-  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplayNoSoldCars" time="0"/>
-  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplayUnsoldCars" time="0.001"/>
-  <testcase classname="coursework_question3.TraderJTest" name="coursework_testInvalidPlaceOffer" time="0"/>
+  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplaySoldCars" time="0"/>
+  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplayNoSoldCars" time="0.001"/>
+  <testcase classname="coursework_question3.TraderJTest" name="coursework_testDisplayUnsoldCars" time="0"/>
+  <testcase classname="coursework_question3.TraderJTest" name="coursework_testInvalidPlaceOffer" time="0.001"/>
   <testcase classname="coursework_question3.TraderJTest" name="coursework_testPlaceOffer" time="0"/>
 </testsuite>
