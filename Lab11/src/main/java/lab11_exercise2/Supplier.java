@@ -8,9 +8,9 @@ package lab11_exercise2;
  */
 public class Supplier {
 	//name of a supplier.
-	private String name;
+	private String name=null;
 	//phone number of a supplier.
-	private String phone;
+	private String phone=null;
 	//regular expression for a phone number.
 	private String reg="[0]{1}[0-9]{10}";
 	/**
