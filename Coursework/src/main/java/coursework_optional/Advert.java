@@ -17,7 +17,7 @@ public class Advert {
 	
 	
 	//Create Car object;
-	private Car car;
+	private Car car=null;
 	
 	//Create list of offers
 	private List<Offer> offers;

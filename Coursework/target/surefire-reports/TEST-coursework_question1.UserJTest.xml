@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3162428594237500561.tmp"/>
+    <property name="classworlds.conf" value="/Users/peterwish/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf16947569058322753522.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/peterwish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -56,7 +56,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="coursework_question1.UserJTest" name="coursework_testUserConstruction" time="0"/>
-  <testcase classname="coursework_question1.UserJTest" name="coursework_testToString" time="0"/>
+  <testcase classname="coursework_question1.UserJTest" name="coursework_testToString" time="0.001"/>
   <testcase classname="coursework_question1.UserJTest" name="coursework_testGetName" time="0"/>
-  <testcase classname="coursework_question1.UserJTest" name="coursework_testInvalidUser" time="0.001"/>
+  <testcase classname="coursework_question1.UserJTest" name="coursework_testInvalidUser" time="0"/>
 </testsuite>
