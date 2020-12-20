@@ -8,19 +8,19 @@ package lab11_exercise2;
  */
 public class Ingredient {
 	//Name of a Ingredient.
-	private String name;
+	private String name=null;
 	//Type of ingredient.
-	private IngredientType type;
+	private IngredientType type=null;
 	//Supplier of an ingredient.
-	private Supplier supplier;
+	private Supplier supplier=null;
 	//Raw weight of a ingredient.
-	private double rawWeight;
+	private double rawWeight=0;
 	//Calories of an ingredient.
-	private double calories;
+	private double calories=0;
 	//Fat of an of ingredient;
-	private double fat;
+	private double fat=0;
 	//Sodium of a ingredient;
-	private double sodium;
+	private double sodium=0;
 	/**
 	 * 
 	 * @param name
